@@ -7,7 +7,7 @@
 * **Manual installation only**
 
 	```
-	cd ~/Library/Application\ Support/Sublime Text 2/Packages/
+	cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
 	git clone git@github.com:rchampourlier/sublime_guard.git Guard
 	```
 	Restart Sublime Text. You can use it as the origin Guard plugin, except that it should now work with your rbenv install. If you're not using the install in your home, you may just fork it again and change the `run_guard.sh` file to suit your needs.
