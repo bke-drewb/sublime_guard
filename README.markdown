@@ -1,5 +1,18 @@
-Sublime Text 2 Guard Plugin
-===========================
+# Sublime Text 2 Guard Plugin
+
+## rbenv fork
+
+* **This is a fork for use with [rbenv](https://github.com/sstephenson/rbenv) instead of RVM with failback to default system Ruby.**
+* It currently assumes you're using rbenv and it was installed in `~/.rbenv`.
+* **Manual installation only**
+
+	```
+	cd ~/Library/Application Support/Sublime Text 2/Packages/
+	git clone git@github.com:rchampourlier/sublime_guard.git Guard
+	```
+	Restart Sublime Text. You can use it as the origin Guard plugin, except that it should now work with your rbenv install. If you're not using the install in your home, you may just fork it again and change the `run_guard.sh` file to suit your needs.
+
+## Original README
 
 This project provides integration of Guard into the Sublime Text 2 editor. I wrote this as
 a convenience tool to help improve my daily workflow while deving on numerous projects
